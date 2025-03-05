@@ -1,0 +1,34 @@
+#no-result-found {
+    display: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    transition: height 0.3s ease-in-out;
+}
+
+#no-result-found.hidden{
+    height: 0;
+    overflow: hidden;
+}
+
+#no-result-found-container {
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    padding: clamp(10px, 1.8vh, 24px) 25% clamp(10px, 1.8vh, 24px) 25%;
+}
+
+
+#no-result-found-content {
+    font-family: "Yu Gothic UI Semibold", sans-serif, Arial;
+    color: black;
+    font-size: clamp(16px, 1.4vh, 24px);
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

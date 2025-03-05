@@ -1,0 +1,66 @@
+.card {
+    width: clamp(150px, 15vw, 300px);
+    aspect-ratio: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #205375;
+    margin: 0 0.25vw 0 0.25vw;
+    flex: 0 0 auto;
+}
+
+.card:hover {
+    background: #112B3C;
+}
+
+.card.selected {
+    background: #112B3C;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 98%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image-circle-box {
+    display: flex;
+    width: 90%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image-circle-box img {
+    width: 95%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: lightgray;
+    object-fit: cover;
+}
+
+.card-artist-name {
+    width: 98%;
+    font-family: "Yu Gothic UI Semibold", sans-serif, Arial;
+    font-size: clamp(15px, 1.5vw, 30px);
+    overflow-y: hidden;
+    color: white;
+    background: transparent;
+    margin: 0.5vw 0 0 0;
+    white-space: normal;
+    overflow-wrap: break-word;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

@@ -1,0 +1,17 @@
+runtime: python312
+
+entrypoint: gunicorn -b :$PORT app.main:app
+
+env_variables:
+  TOKEN_PATH: "app/tmp/token.json"
+
+handlers:
+  - url: /static
+    static_dir: app/static
+
+  - url: /templates/.*
+    static_dir: app/templates
+
+  - url: /.*
+    script: auto
+

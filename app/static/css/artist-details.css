@@ -1,0 +1,33 @@
+.artist-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#artist-search-artist-details-box h1, p{
+    display: block;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.artist-details-title {
+    font-family: "Yu Gothic UI Semibold", sans-serif, Arial;
+    font-size: clamp(19px, 1.5vw, 27px);
+    text-align: center;
+}
+
+.artist-details-nationality {
+    font-size: clamp(16px, 1.2vw, 24px);
+    font-family: "Arial", sans-serif;
+}
+
+.artist-details-biography {
+    font-size: clamp(14px, 1.2rem, 20px);
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-align: justify;
+    hyphens: auto;
+    font-family: "Arial", sans-serif;
+}

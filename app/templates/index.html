@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Artist Search</title>
+    <link rel="icon" href="../static/images/artsy_logo.svg" type="image/svg+xml"/>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="../static/css/main.css"/>
+    <link rel="stylesheet" href="../static/css/card.css"/>
+    <link rel="stylesheet" href="../static/css/no-result-found.css"/>
+    <link rel="stylesheet" href="../static/css/artist-details.css"/>
+    <!--metadata-->
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Zhicheng Zhang"/>
+    <meta name="keywords" content="Search, Artist, Introduction">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!--html body-->
+<header id="artist-search-header"><p>Artist Search</p></header>
+<main id="artist-search-main">
+    <div id="artist-search-bar">
+        <div class="artist-search-search-bar-rounded-box">
+            <button class="artist-search-search-bar-button"><img src="../static/images/search_icon.png" alt="Search Icon" class="search-button-image"/></button>
+            <label id="artist-search-search-bar-text-box"><input type="text" placeholder="Please enter an artist name."/></label>
+            <button class="artist-search-search-bar-button"><img src="../static/images/clear_icon.png" alt="Clear Icon" class="clear-button-image"/></button>
+        </div>
+    </div>
+    <div class="loading-bar">
+        <img src="../static/images/loading.gif" alt="Loading Gif" class="loading-gif"/>
+    </div>
+    <div id="artist-search-result-list">
+        <div id="artist-search-result-list-container">
+            <div id="artist-search-result-list-content"></div>
+        </div>
+    </div>
+    <div class="loading-bar">
+        <img src="../static/images/loading.gif" alt="Loading Gif" class="loading-gif"/>
+    </div>
+    <div id="artist-search-artist-details-box">
+        <div id="artist-details-container">
+            <div id="artist-details-content"></div>
+        </div>
+    </div>
+</main>
+<footer id="artist-search-footer"><a href="https://www.artsy.net/"><p>Powered by&nbsp;<span><img src="../static/images/artsy_logo.svg" alt="Artsy Logo"/></span>Artsy.</p></a></footer>
+
+<!--Javascript -->
+<script src="../static/js/main-page.js"></script>
+<script src="../static/js/load-card.js"></script>
+<script src="../static/js/load-artist-details.js"></script>
+</body>
+</html>
