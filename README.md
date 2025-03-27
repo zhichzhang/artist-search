@@ -1,6 +1,6 @@
-> Artist Search Pro 是我自己开发的使用 Angular、Bootstrap、Express.js 和 MongoDB 构建的增强版。请点击此[链接](https://github.com/zhichzhang/artist-search-pro)了解更多详细信息。谢谢。  
+> 目前该项目已升级为 Artist Search Pro，一个使用 Angular、Bootstrap、Express.js 和 MongoDB 构建的增强版。请点击此[链接](https://github.com/zhichzhang/artist-search-pro)了解更多详细信息。谢谢！ 
 >
-> Artist Search Pro, an enhanced version built using Angular, Bootstrap, Express.js, and MongoDB, was developed by myself. Please follow this [link](https://github.com/zhichzhang/artist-search-pro) for more details. Thanks.
+> Currently, the project has been upgraded to Artist Search Pro, an enhanced version built with Angular, Bootstrap, Express.js, and MongoDB. Please follow this [link](https://github.com/zhichzhang/artist-search-pro) for more details. Thanks.
 
 # Artist Search
 This web application allows users to search for artists on [Artsy](https://www.artsy.net/). Enter an artist's name to view search results, and click on a result card that interests you for more details.
