@@ -1,3 +1,5 @@
+> Artist Search Pro, an enhanced version built using Angular, Bootstrap, Express.js, and MongoDB, was developed by myself. Please follow this [link](https://github.com/zhichzhang/artist-search-pro) for more details. Thanks.
+
 # Artist Search
 This web application allows users to search for artists on [Artsy](https://www.artsy.net/). Enter an artist's name to view search results, and click on a result card that interests you for more details.
 
