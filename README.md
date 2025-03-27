@@ -1,4 +1,5 @@
-> Artist Search Pro 是我自己开发的使用 Angular、Bootstrap、Express.js 和 MongoDB 构建的增强版。请点击此[链接]((https://github.com/zhichzhang/artist-search-pro))了解更多详细信息。谢谢。
+> Artist Search Pro 是我自己开发的使用 Angular、Bootstrap、Express.js 和 MongoDB 构建的增强版。请点击此[链接](https://github.com/zhichzhang/artist-search-pro)了解更多详细信息。谢谢。  
+>
 > Artist Search Pro, an enhanced version built using Angular, Bootstrap, Express.js, and MongoDB, was developed by myself. Please follow this [link](https://github.com/zhichzhang/artist-search-pro) for more details. Thanks.
 
 # Artist Search
