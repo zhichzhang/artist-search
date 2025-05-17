@@ -3,13 +3,9 @@
 > The project has now been upgraded to **Artist Search Pro**, an enhanced version built with Angular, Bootstrap, Express.js, and MongoDB.  
 > Please check out this [link](https://github.com/zhichzhang/artist-search-pro) and the [demo video](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=sharing) for more details. Thank you!
 
-
 # 艺术家检索 / Artist Search
 
-This web application allows users to search for artists on [Artsy](https://www.artsy.net/).  
-Simply enter an artist’s name to view search results, and click on any result card to view more details.
-
----
+This web application allows users to search for artists on [Artsy](https://www.artsy.net/). Simply enter an artist’s name to view search results, and click on any result card to view more details.
 
 ## 部署之前 / Before Deployment
 
@@ -21,27 +17,19 @@ To deploy the application:
    - Set `DEV_VERSION_OPENED = true` for local testing.
    - Set `DEV_VERSION_OPENED = false` for deployment, and replace the `DOMAIN` parameter with your actual cloud domain (replace *my-domain* accordingly).
 
----
-
 ## 检索艺术家 / Search Artist
 
-Type a keyword into the search bar to receive relevant results from the server, shown as a horizontal row of result cards.  
-Scroll the bar to the right to explore more results.
-
----
+1. Type a keyword into the search bar to receive relevant results from the server, shown as a horizontal row of result cards.  
+2. Scroll the bar to the right to explore more results.
 
 ## 获取详细信息 / Get Detailed Info
 
 If you're interested in a particular artist, click their card to reveal more detailed information—  
 including birthdate, death date (if applicable), nationality, and biography—displayed below the result section.
 
----
-
 ## 响应式设计 / Responsive Design
 
 The layout of the application adapts responsively to different screen sizes for optimal viewing on various devices.
-
----
 
 ## 注意事项 / Caution
 
