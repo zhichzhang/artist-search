@@ -1,21 +1,52 @@
-> 目前该项目已升级为 Artist Search Pro，一个使用 Angular、Bootstrap、Express.js 和 MongoDB 构建的增强版。请点击此[链接](https://github.com/zhichzhang/artist-search-pro)了解更多详细信息。谢谢！ 
->
-> Currently, the project has been upgraded to Artist Search Pro, an enhanced version built with Angular, Bootstrap, Express.js, and MongoDB. Please follow this [link](https://github.com/zhichzhang/artist-search-pro) for more details. Thanks.
+> 目前该项目已升级为 Artist Search Pro，这是一个基于 Angular、Bootstrap、Express.js 和 MongoDB 构建的增强版本。  
+> 请点击此 [链接](https://github.com/zhichzhang/artist-search-pro) 和 [基本功能演示视频](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=sharing) 获取更多详细信息。谢谢！
+> The project has now been upgraded to **Artist Search Pro**, an enhanced version built with Angular, Bootstrap, Express.js, and MongoDB.  
+> Please check out this [link](https://github.com/zhichzhang/artist-search-pro) and the [demo video](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=sharing) for more details. Thank you!
 
-# Artist Search
-This web application allows users to search for artists on [Artsy](https://www.artsy.net/). Enter an artist's name to view search results, and click on a result card that interests you for more details.
 
-## Before Deployment
-Before deploying the application, visit the [Artsy API](https://developers.artsy.net/) to obtain your `client_id`, `client_secret`, and `token`. Then, go to [token_util.py](./app/utils/token_util.py) and configure the parameters as indicated in the annotations. In [main-page.js](./app/static/js/main-page.js), you can switch between the debug and deployment modes by setting the `DEV_VERSION_OPENED` parameter to `true` or `false`. To test the code locally, set `DEV_VERSION_OPENED` to `true`. For deployment, set `DEV_VERSION_OPENED` to `false` and specify your cloud platform domain in the `DOMAIN` parameter (replace *my-domain* with your actual domain).
+# 艺术家检索 / Artist Search
 
-## Search Artist
-Enter a keyword in the search bar to receive relevant results from the server, displayed as a series of result cards. To explore more results, scroll the horizontal bar to the right.
+This web application allows users to search for artists on [Artsy](https://www.artsy.net/).  
+Simply enter an artist’s name to view search results, and click on any result card to view more details.
 
-## Get Detailed Info
-If you find an artist interesting and want to learn more about them, click on the corresponding card. Detailed information, including their birthdate, death date (if applicable), nationality, and biography, will be displayed below.
+---
 
-## Responsive Design
-The layout of the web application adjusts dynamically based on the screen size.
+## 部署之前 / Before Deployment
 
-## Caution
-This project has been significantly modified to meet my personal requirements, meaning it greatly diverges from the requirements mentioned in the CSCI 571 assignment. It is intended for discussion and study purposes only—please do not plagiarize the code.
+To deploy the application:
+
+1. Visit the [Artsy API](https://developers.artsy.net/) to obtain your `client_id`, `client_secret`, and `token`.
+2. Open [`token_util.py`](./app/utils/token_util.py) and configure the credentials as indicated in the comments.
+3. In [`main-page.js`](./app/static/js/main-page.js), toggle the deployment mode via the `DEV_VERSION_OPENED` flag:
+   - Set `DEV_VERSION_OPENED = true` for local testing.
+   - Set `DEV_VERSION_OPENED = false` for deployment, and replace the `DOMAIN` parameter with your actual cloud domain (replace *my-domain* accordingly).
+
+---
+
+## 检索艺术家 / Search Artist
+
+Type a keyword into the search bar to receive relevant results from the server, shown as a horizontal row of result cards.  
+Scroll the bar to the right to explore more results.
+
+---
+
+## 获取详细信息 / Get Detailed Info
+
+If you're interested in a particular artist, click their card to reveal more detailed information—  
+including birthdate, death date (if applicable), nationality, and biography—displayed below the result section.
+
+---
+
+## 响应式设计 / Responsive Design
+
+The layout of the application adapts responsively to different screen sizes for optimal viewing on various devices.
+
+---
+
+## 注意事项 / Caution
+
+本项目已根据个人需求进行了大幅度修改，因此与 CSCI 571 课程作业的原始要求存在显著差异。  
+该项目仅用于学习与交流目的，**请勿抄袭或将代码用作课程作业提交**。
+
+This project has been extensively customized to meet my personal requirements and therefore differs significantly from the original CSCI 571 assignment.  
+It is intended solely for study and discussion purposes—**please do not plagiarize or submit the code for academic coursework.**
