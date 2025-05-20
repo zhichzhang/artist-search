@@ -4,7 +4,7 @@
 > The project has now been upgraded to **Artist Search Pro**, an enhanced version built with Angular, Bootstrap, Express.js, and MongoDB.  
 > Please check out this [[Artist Search Pro](https://github.com/zhichzhang/artist-search-pro) and the [artist-search-pro-web-presentation.mp4](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=sharing) for more details. Thank you!
 >
-> 本项目的演示视频为[artist-search-web-presentation.mp4](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=drive_link)。
+> 本项目的演示视频为[artist-search-web-presentation.mp4](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=drive_link)。  
 > The link to the presentation video of the project is [artist-search-web-presentation.mp4](https://drive.google.com/file/d/1s1TLZP6b2hlV72P6W_J_aXHGdjfJovg7/view?usp=drive_link).
 
 # 艺术家检索 / Artist Search
